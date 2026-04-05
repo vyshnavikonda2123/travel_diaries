@@ -489,3 +489,44 @@
     margin-bottom: 60px;
     /* REMOVE margin-right */
 }
+
+.social-footer {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.social-footer .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    color: #555;
+    font-size: 26px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.social-footer .icon:hover {
+    background-color: #cfa25f; /* match your theme */
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* Optional: platform colors on hover */
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+.youtube:hover {
+    background-color: #ff0000;
+}
+
+.instagram:hover {
+    background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf);
+}
